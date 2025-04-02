@@ -172,6 +172,10 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
                 "value": love_days,
                 "color": get_color()
             },
+            "marry_day": {
+                "value": marry_days,
+                "color": get_color()
+            },
             "note_en": {
                 "value": note_en,
                 "color": get_color()
