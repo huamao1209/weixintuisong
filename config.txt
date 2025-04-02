@@ -5,25 +5,24 @@
 # 公众号appSecret
 "app_secret": "5c2c525856ec63fca391236751bf8183",
 # 模板消息id
-"template_id": "GPjcHXoFH4eb6pqiGH1YqqaZOI2bQ0EGOIsiO0E3J_Y",
+"template_id": "7M88vzXmpf5sTmfORETKVU321Q97OH38QRU37o0iom8",
 # 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如["wx1", "wx2"]
 "user": ["oCvBc6ipVBIvM8Ey2kIdF06E8iCU"],
- 
+
 # 信息配置
-# 和风天气apikey
-"weather_key": "256e15527af947c7a47905565d3a4af8",
-# 所在地区，可为省，城市，区，县，同时支持国外城市，例如伦敦
-"region": "合肥市",
+# 所在省份
+"province": "安徽",
+# 所在城市
+"city": "合肥",
 # 生日1，修改名字为对应需要显示的名字，如果生日为农历，在最前面加上r即可
 "birthday1": {"name": "阿妍", "birthday": "r1998-11-24"},
-# 生日2
 "birthday2": {"name": "小华", "birthday": "r1999-05-02"},
-# 在一起的日子，格式同上，暂不不支持农历
-"love_date": "2017-12-09",
-# 领证的日子，格式同上，暂不不支持农历
-"marry_date": "2024-01-18",
-# 金句中文，如果设置了，则会显示这里的，如果为空，默认会读取金山的每日金句
-"note_ch": "",
-# 金句英文
-"note_en": ""
+#纪念日
+"anniversary1":{"anniversary":"2024-12-09"},
+
+# 在一起的日子
+"love_date":"2017-12-09",
+# 结婚的日子
+"marry_date":"2024-12-09"
+
 }
